@@ -1,0 +1,1 @@
+export const List = ({list, renderItem}) => list.map((item) => renderItem(item));
